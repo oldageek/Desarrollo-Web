@@ -15,35 +15,53 @@
         .container {
             margin-bottom: 15px;
         }
+        
+        #titulo {
+            background: royalblue;
+            text-align: center;
+            font-family: 'Time New Roman';
+            padding: 1em;
+        }
+        
+        .row>div {
+            margin: 15px;
+        }
     </style>
     <title>Plantilla</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <img src="img/fcc.jpg" width="150px">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h1 id="titulo">FACULTAD DE CIENCIAS DE LA COMPUTACION</h1>
+                </div>
+                <div class="col">
+                    <img src="img/fcc.jpg" width="150px">
+                </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <button href="">Informacion de Persona</button>
-            </div>
-            <div class="col">
-                <button href="">Historial Academico</button>
-            </div>
-            <div class="col">
-                <button href="">Pasatiempos</button>
-            </div>
-            <div class="col">
-                <button href="">Contacto</button>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button href="">Informacion de Persona</button>
+                </div>
+                <div class="col">
+                    <button href="">Historial Academico</button>
+                </div>
+                <div class="col">
+                    <button href="">Pasatiempos</button>
+                </div>
+                <div class="col">
+                    <button href="">Contacto</button>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
