@@ -28,42 +28,118 @@
         .row>div {
             margin: 15px;
         }
+        
+        .navegacion {
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
     </style>
     <title>Plantilla</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <h1 id="titulo">FACULTAD DE CIENCIAS DE LA COMPUTACION</h1>
-                </div>
-                <div class="col">
-                    <img src="img/fcc.jpg" width="150px">
+    <div class="container">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <h1 id="titulo">FACULTAD DE CIENCIAS DE LA COMPUTACION</h1>
+                    </div>
+                    <div class="col">
+                        <img src="img/fcc.jpg" width="150px">
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <nav>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <button href="">Informacion de Persona</button>
-                </div>
-                <div class="col">
-                    <button href="">Historial Academico</button>
-                </div>
-                <div class="col">
-                    <button href="">Pasatiempos</button>
-                </div>
-                <div class="col">
-                    <button href="">Contacto</button>
-                </div>
+        <nav class="row navegacion">
+            <div class="col">
+                <button href="" class="btn btn-secondary">Informacion de Persona</button>
             </div>
-        </div>
-    </nav>
+            <div class="col">
+                <button href="" class="btn btn-secondary">Historial Academico</button>
+            </div>
+            <div class="col">
+                <button href="" class="btn btn-secondary">Pasatiempos</button>
+            </div>
+            <div class="col">
+                <button href="" class="btn btn-secondary">Contacto</button>
+            </div>
+        </nav>
+
+        <section class="seccion-info-per row" id="info-personal">
+            <div class="col">
+                <h2>Información Personal</h2>
+                <p>Mi nombre es Alfredo Zeno Guanico tengo 22 años, soy de un lugar llamado Zacapoaxtla que es un municipio del estado de Puebla. Toda mi infancia la pase viviendo en el municipio junto a mi hermano menor y abuelitos. </p>
+
+                <p>Mis primeros trabajos que he tenido han comenzado desde que estaba en la secundaria. Y siempre he trabajado por el Zócalo de la ciudad de México</p>
+
+                <p>El primer trabajo que tuve fue en un restaurant. En donde comencé a conocer el movimiento de la ciudad. Aunque lo que me pagaban no era mucho, me sentía bien de empezar a ganar dinero por mi propia cuenta.</p>
+            </div>
+            <div class="col align-self-center">
+                <img src="img/cdmx.png" alt="Ciudad de trabajo" width="320px">
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col">
+                <p>Mis demás trabajos han sido dentro del Centro Joyero de Madero 55. En donde he trabajado todas mis vacaciones.</p>
+
+                <p>Actualmente Soy estudiante de la BUAP, en la ciudad de Puebla, cursando la carrera de Ingeniería en Ciencias de la Computacion.</p>
+            </div>
+
+            <div class="col align-self-center">
+                <img src="img/joyeria.png" alt="Ciudad de trabajo" width="320px">
+            </div>
+        </section>
+
+        <section class="row" id="historia-academica">
+            <div class="col-12">
+                <h2>Historia Academica</h2>
+                <p>
+                    Prescolar:
+                    <ul>
+                        <li>Un año de preescolar</li>
+                        <li>2004 - 2005</li>
+                    </ul>
+                </p>
+                <img src="img/preescolar.png" width="320px">
+            </div>
+
+            <div class="col-12">
+                <p>
+                    Primaria:
+                    <ul>
+                        <li>Escuela Primaria Abraham Sosa. Tatoxcac Zacapoaxtla, Puebla.</li>
+                        <li>2005 - 2008</li>
+                    </ul>
+                </p>
+                <img src="img/primaria.png" width="320px">
+            </div>
+
+            <div class="col-12">
+                <p>
+                    Secundaria:
+                    <ul>
+                        <li>Telesecundaria Desiderio Xochitiotzin. Tatoxcac Zacapoaxtla, Puebla.</li>
+                        <li>2008 - 2011</li>
+                    </ul>
+                </p>
+                <img src="img/secundaria.png" width="320px">
+            </div>
+
+            <div class="col-12">
+                <p>
+                    Preparatoria:
+                    <ul>
+                        <li>Bachillerato General Estatal José Ignacio Morales Cruz. Calle: Bachilleres Sn, Zacapoaxtla, Puebla.</li>
+                        <li>2011 - 2014</li>
+                    </ul>
+                </p>
+                <img src="img/preparatoria.png" width="320px">
+            </div>
+        </section>
+    </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
